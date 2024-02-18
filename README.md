@@ -1,7 +1,7 @@
 <h1 align ="center" > 📽️  Video Stream </h1>
 <h4  align ="center"> 
-Fullstack open source application, dynamic website with features like opportunities portal,</h4>
- <h4  align ="center">blog portal, admin dashboard, authentication and more.  Made with MongoDB, Express, Nodejs  </h4>
+Fullstack open source application, dynamic website with features like NodeJS and HTML5 Video Streaming,</h4>
+ <h4  align ="center">Personal Channel, user dashboard, authentication and more.  Made with MongoDB, Express, Nodejs  </h4>
 <br>
 <br>
 
@@ -25,7 +25,7 @@ In order to run this project locally, simply fork and clone the repository or do
 $ cd client
 $ npm install (to install client-side dependencies)
 $ npm run  start (to start the client)  or nodemon app
-DONT FORGET TO CREATE THE IMAGE FOLDER - ./public/images
+DONT FORGET TO CREATE THE IMAGE FOLDER - ./public/thumbnails - ./public/videos
 ```
 ```
 
@@ -48,12 +48,11 @@ DONT FORGET TO CREATE THE IMAGE FOLDER - ./public/images
 ##  Screenshots:
 📸
 <br>
-<img src="./SYSTEMIMAGES/IMAGE01.jpg" alt="project screenshot01" />
-<img src="./SYSTEMIMAGES/IMAGE02.jpg" alt="project screenshot02" />
-<img src="./SYSTEMIMAGES/IMAGE03.jpg" alt="project screenshot03" />
-<img src="./SYSTEMIMAGES/IMAGE04.jpg" alt="project screenshot04" />
-<img src="./SYSTEMIMAGES/IMAGE05.jpg" alt="project screenshot05" />
-<img src="./SYSTEMIMAGES/IMAGE06.jpg" alt="project screenshot06" />
+<img src="./PROJECTIMAGES/image01.jpg" alt="project screenshot01" />
+<img src="./PROJECTIMAGES/image02.jpg" alt="project screenshot02" />
+<img src="./PROJECTIMAGES/image03.jpg" alt="project screenshot03" />
+<img src="./PROJECTIMAGES/image04.jpg" alt="project screenshot04" />
+<img src="./PROJECTIMAGES/image05.jpg" alt="project screenshot05" />
 
 <br>
 
