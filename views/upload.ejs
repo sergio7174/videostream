@@ -1,0 +1,110 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Askbootstrap">
+  <meta name="author" content="Askbootstrap">
+  <title>VIDEO - Video Streaming Website HTML Template</title>
+  <!-- Favicon Icon -->
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <!-- Bootstrap core CSS-->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template-->
+  <link href="/css/osahan.css" rel="stylesheet">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="/vendor/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="/vendor/owl-carousel/owl.theme.css">
+
+  <link rel="stylesheet" type="text/css" href="/css/macOSNotif.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/x0popup.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/video-js.css">
+
+  <link rel="stylesheet" href="/css/alertify.min.css">
+
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <style type="text/css">
+     .thumbnail {
+        width: 370px;
+        height: 270px;
+        object-fit: cover;
+     }
+     .ajs-success {
+        color: white;
+     }
+  </style>
+
+</head>
+
+
+<script type="text/javascript">
+   function fileSelected() {
+      var fileName = document.getElementById("file").files[0].name;
+      document.getElementById("filename").innerHTML = fileName;
+   }
+</script>
+
+
+<body>
+
+
+<div class="container-fluid pt-5 pb-5" id="video-upload-container">
+  
+      <div class="col-md-12">
+
+        
+
+
+         <form method="POST" action="/upload-video" enctype="multipart/form-data">
+
+            <div class="form-group">
+               <label>Select video</label>
+               <input type="file" accept="video/mp4,video/*" name="video" required>
+            </div>
+
+            <div class="form-group">
+               <label>Select thumbnail</label>
+               <input type="file" name="thumbnail" accept="image/*" required>
+            </div>
+
+            <div class="form-group">
+               <label>Title</label>
+               <input type="text" name="title" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+               <label>Description</label>
+               <textarea type="text" name="description" rows="10" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+               <label>Tags</label>
+               <input type="text" name="tags" class="form-control">
+            </div>
+
+            <div class="form-group">
+               <label>Category</label>
+               <select name="category" class="form-control">
+                  <option value="">Select category</option>
+                  <option value="Technology">Technology</option>
+                  <option value="Gaming">Gaming</option>
+                  <option value="Education">Education</option>
+                  <option value="Unboxing">Unboxing</option>
+                  <option value="Challenge">Challenge</option>
+                  <option value="Comedy">Comedy</option>
+                  <option value="Vlogs">Vlogs</option>
+                  <option value="How-To">How-To</option>
+                  <option value="Product Review">Product Review</option>
+               </select>
+            </div>
+
+            <input type="submit" class="btn btn-outline-primary" value="Upload Video">
+         </form>
+      </div>
+   </div>
+</div>
+<!-- /.container-fluid -->
+
+<%- include ("includes/footer") %>
+</body>
