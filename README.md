@@ -1,4 +1,4 @@
-<h1 align ="center" > 📽️  Video Stream </h1>
+<h1 align ="center" > 📽️ Video Stream </h1>
 <h4  align ="center"> 
 Fullstack open source application, dynamic website with features like NodeJS and HTML5 Video Streaming,</h4>
  <h4  align ="center">Personal Channel, user dashboard, authentication and more.  Made with MongoDB, Express, Nodejs  </h4>
